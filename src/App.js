@@ -16,6 +16,8 @@ function App() {
    .then(res => setLocation(res.data))
 
   },[])
+
+  console.log('Hello')
  
   return (
     <div className="App">
